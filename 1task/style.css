@@ -23,6 +23,18 @@ div {
     text-align: center;
 }
 
-div:hover {
+div>img:hover {
     border-radius: 24px;
+}
+
+footer {
+    height: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background: repeating-linear-gradient(45deg, var(--grey), var(--grey)
+    50px, var(--black) 50px, var(--black) 100px);
+    border-radius: 24px;
+    padding-top: 40px;
 }
