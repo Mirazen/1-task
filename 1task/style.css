@@ -1,0 +1,28 @@
+body {
+    background-image: linear-gradient(blue, pink);
+}
+.logo-png {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    width: 50px;
+}
+
+.border-bottom {
+    border-bottom: 2px dashed #000;
+}
+
+.street-png {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    width: 100px;
+}
+div {
+    width: 900px;
+    text-align: center;
+}
+
+div:hover {
+    border-radius: 24px;
+}
